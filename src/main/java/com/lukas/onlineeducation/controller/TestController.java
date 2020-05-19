@@ -12,12 +12,13 @@ public class TestController {
     private WeChatConfig weChatConfig;
 
     @RequestMapping("test")
-    public String test(){
+    public String test() {
         return "hello lukas";
     }
 
     @RequestMapping("test_config")
-    public String testConfig(){
-        return weChatConfig.getAppId();
+    public String testConfig() {
+        System.out.println("WeChat AppId1：" + weChatConfig.getAppId());
+        return "WeChat AppId1：" + weChatConfig.getAppId();
     }
 }
