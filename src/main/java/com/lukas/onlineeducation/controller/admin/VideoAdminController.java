@@ -5,6 +5,11 @@ import com.lukas.onlineeducation.service.VideoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * 管理员权限视频接口
+ * @author lk
+ * @date 2020-05-20 14:56
+ */
 @RestController
 @RequestMapping("/admin/api/v1/video")
 public class VideoAdminController {
