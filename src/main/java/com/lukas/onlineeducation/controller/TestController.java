@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 测试接口
+ * @author lk
+ * @date 2020-05-20 11:11
+ */
 @RestController
 public class TestController {
 
